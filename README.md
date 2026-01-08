@@ -33,4 +33,4 @@ It detects traffic violations and displays alerts using a simple web interface.
 - Cloud-based monitoring system
 
 ## Team
-HackNova 2025 Submission
+HackNova 2026 Submission
