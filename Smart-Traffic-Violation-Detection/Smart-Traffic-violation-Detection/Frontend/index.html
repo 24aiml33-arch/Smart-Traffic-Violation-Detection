@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Traffic Violation Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .box {
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h2>Smart Traffic Violation Detection</h2>
+        <p>Click the button to check traffic violation</p>
+
+        <button onclick="showResult()">Check Violation</button>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function showResult() {
+            document.getElementById("result").innerHTML =
+            "Violation Detected! Please follow traffic rules.";
+        }
+    </script>
+
+</body>
+</html>
